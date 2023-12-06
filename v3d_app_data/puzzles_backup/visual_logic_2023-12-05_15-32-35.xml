@@ -50,7 +50,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="3405.889661698333" scrolly="1744.6006640335181" scale="0.7219857701073256">
+  <tab name="main" type="MainTab" active="true" scrollx="3170.6896494913017" scrolly="-3047.399423704519" scale="0.7219857701073256">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="KwMBc}[7lIpDpiR-90W}" type="">all_buttons</variable>
       <variable id="4_Ts%~5qgN[D-eD7`C/~" type="">animated_objects</variable>
@@ -8177,6 +8177,37 @@
                                   <field name="TEXT">part_6</field>
                                 </shadow>
                               </value>
+                              <next>
+                                <block type="setHTMLElemStyle" id="U:hKq*Z3MTb{yN}1K%:_">
+                                  <field name="PROPERTY">fontWeight</field>
+                                  <field name="PARENT">FALSE</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="ePsBI)%q_*mbl`u8U!/7">
+                                      <field name="TEXT">bold</field>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <shadow type="text" id="#-):E]kz}fEm4r4RqtQr">
+                                      <field name="TEXT">part_6</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="bindHTMLObject" id="G@(+)@6CVZIba~jaHOZx">
+                                      <field name="PARENT">FALSE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="|_VWFJfkIa/X3jg.Mm?p">
+                                          <field name="TEXT">part_6</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="OBJECTINPUT">
+                                        <shadow type="objectList" id="EHt-Aik@YvnFz{`HK;X;">
+                                          <field name="FIELDNAME">instance_5_rotate</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
                             </block>
                           </next>
                         </block>
@@ -8187,35 +8218,6 @@
               </next>
             </block>
           </next>
-        </block>
-      </next>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="U:hKq*Z3MTb{yN}1K%:_" x="-4610" y="610">
-      <field name="PROPERTY">fontWeight</field>
-      <field name="PARENT">FALSE</field>
-      <value name="VALUE">
-        <block type="text" id="ePsBI)%q_*mbl`u8U!/7">
-          <field name="TEXT">bold</field>
-        </block>
-      </value>
-      <value name="ID">
-        <shadow type="text" id="#-):E]kz}fEm4r4RqtQr">
-          <field name="TEXT">part_6</field>
-        </shadow>
-      </value>
-      <next>
-        <block type="bindHTMLObject" id="G@(+)@6CVZIba~jaHOZx">
-          <field name="PARENT">FALSE</field>
-          <value name="ID">
-            <shadow type="text" id="|_VWFJfkIa/X3jg.Mm?p">
-              <field name="TEXT">part_6</field>
-            </shadow>
-          </value>
-          <value name="OBJECTINPUT">
-            <shadow type="objectList" id="EHt-Aik@YvnFz{`HK;X;">
-              <field name="FIELDNAME">instance_5_rotate</field>
-            </shadow>
-          </value>
         </block>
       </next>
     </block>
