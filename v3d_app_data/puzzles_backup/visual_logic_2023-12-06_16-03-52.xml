@@ -50,7 +50,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="2977.062826695564" scrolly="1378.6829677307408" scale="0.5874915587336471">
+  <tab name="main" type="MainTab" active="true" scrollx="3048.262960972908" scrolly="1463.731156787845" scale="0.5874915587336471">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="KwMBc}[7lIpDpiR-90W}" type="">all_buttons</variable>
       <variable id="#^IB9wqk!ZM/:7xvekMq" type="">click_counter</variable>
@@ -130,7 +130,7 @@
                       <field name="TEXT">incomplete</field>
                     </shadow>
                     <block type="math_number" id="tS9bAq6FawTl5JmHXx.q">
-                      <field name="NUM">5</field>
+                      <field name="NUM">6</field>
                     </block>
                   </value>
                   <next>

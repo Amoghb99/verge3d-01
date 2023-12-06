@@ -50,7 +50,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="2977.062826695564" scrolly="1378.6829677307408" scale="0.5874915587336471">
+  <tab name="main" type="MainTab" active="true" scrollx="2986.662863316658" scrolly="1436.5311598396029" scale="0.5874915587336471">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="KwMBc}[7lIpDpiR-90W}" type="">all_buttons</variable>
       <variable id="#^IB9wqk!ZM/:7xvekMq" type="">click_counter</variable>

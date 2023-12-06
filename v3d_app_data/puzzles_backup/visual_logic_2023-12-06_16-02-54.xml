@@ -50,7 +50,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="2977.062826695564" scrolly="1378.6829677307408" scale="0.5874915587336471">
+  <tab name="main" type="MainTab" active="true" scrollx="3164.262960972908" scrolly="1377.3311552619662" scale="0.5874915587336471">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="KwMBc}[7lIpDpiR-90W}" type="">all_buttons</variable>
       <variable id="#^IB9wqk!ZM/:7xvekMq" type="">click_counter</variable>
@@ -78,85 +78,6 @@
       <variable id="qPVBa!$gsHKv1$8~h*V7" type="">robot_parts_list</variable>
       <variable id="!nngU`m]y}m~T.QV/}r2" type="">robot_slected_part</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="{dUP)+3Erg,KGrygF_vj" x="-4570" y="-2390">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="BO|+/77SdC_./$VX?0h=">
-          <field name="TEXT"/>
-        </shadow>
-        <block type="DOMObjectSelector" id="IEa-cegR)JI3(!y/Rmpy">
-          <field name="DOM_OBJECT">WINDOW</field>
-        </block>
-      </value>
-      <statement name="DO">
-        <block type="controls_if" id="dM,,Asx=Fw$0i=t#dcFm">
-          <value name="IF0">
-            <block type="logic_compare" id="$g9x|G?@G[WSN!^7k;93">
-              <field name="OP">GTE</field>
-              <value name="A">
-                <block type="variables_get" id="^^ELvL}vGEHL[m`HI,#J">
-                  <field name="VAR" id="#^IB9wqk!ZM/:7xvekMq">click_counter</field>
-                </block>
-              </value>
-              <value name="B">
-                <block type="math_number" id="+953@hzA=*2YC($(OkC:">
-                  <field name="NUM">5</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <statement name="DO0">
-            <block type="SCORM/LMSSetValue" id="R;1b{S6[(b/2Vl5/qbFM">
-              <value name="ELEMENT">
-                <shadow type="SCORM/dataModelElements" id="%{niK](HV*;_aLqSIt2R">
-                  <field name="ELEMENT">cmi.core.lesson_status</field>
-                </shadow>
-              </value>
-              <value name="VALUE">
-                <shadow type="text" id="?m[Z%6AG.VH5s1$p0%ux">
-                  <field name="TEXT">completed</field>
-                </shadow>
-              </value>
-              <next>
-                <block type="SCORM/LMSSetValue" id="E#y3z,uK}/e_$plyJZ8y">
-                  <value name="ELEMENT">
-                    <shadow type="SCORM/dataModelElements" id="0Nu6}.l4U2n_,iC/4Bda">
-                      <field name="ELEMENT">cmi.core.score.max</field>
-                    </shadow>
-                  </value>
-                  <value name="VALUE">
-                    <shadow type="text">
-                      <field name="TEXT">incomplete</field>
-                    </shadow>
-                    <block type="math_number" id="tS9bAq6FawTl5JmHXx.q">
-                      <field name="NUM">5</field>
-                    </block>
-                  </value>
-                  <next>
-                    <block type="SCORM/LMSSetValue" id="s4gZ_;GOV1#m)|FaJoMv">
-                      <value name="ELEMENT">
-                        <shadow type="SCORM/dataModelElements" id="PYo,iNG*dd=sIg7rI%?k">
-                          <field name="ELEMENT">cmi.core.score.min</field>
-                        </shadow>
-                      </value>
-                      <value name="VALUE">
-                        <shadow type="text">
-                          <field name="TEXT">incomplete</field>
-                        </shadow>
-                        <block type="math_number" id="$K%5u*NWP1ZN.]v_OfUf">
-                          <field name="NUM">0</field>
-                        </block>
-                      </value>
-                    </block>
-                  </next>
-                </block>
-              </next>
-            </block>
-          </statement>
-        </block>
-      </statement>
-    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="J2r%)dY3!X!WGJe*He:9" x="-5310" y="-2310">
       <field name="ELEMENT">ol</field>
       <field name="MODE">TO</field>
@@ -2615,6 +2536,51 @@
           </next>
         </block>
       </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="{dUP)+3Erg,KGrygF_vj" x="-4570" y="-2290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="BO|+/77SdC_./$VX?0h=">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="DOMObjectSelector" id="IEa-cegR)JI3(!y/Rmpy">
+          <field name="DOM_OBJECT">WINDOW</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="dM,,Asx=Fw$0i=t#dcFm">
+          <value name="IF0">
+            <block type="logic_compare" id="$g9x|G?@G[WSN!^7k;93">
+              <field name="OP">GTE</field>
+              <value name="A">
+                <block type="variables_get" id="^^ELvL}vGEHL[m`HI,#J">
+                  <field name="VAR" id="#^IB9wqk!ZM/:7xvekMq">click_counter</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="+953@hzA=*2YC($(OkC:">
+                  <field name="NUM">5</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="SCORM/LMSSetValue" id="R;1b{S6[(b/2Vl5/qbFM">
+              <value name="ELEMENT">
+                <shadow type="SCORM/dataModelElements" id="%{niK](HV*;_aLqSIt2R">
+                  <field name="ELEMENT">cmi.core.lesson_status</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="text" id="?m[Z%6AG.VH5s1$p0%ux">
+                  <field name="TEXT">completed</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="SCORM/LMSInitialize" id="PIAn5M@C@h(c2A?/RB{3" x="-4570" y="-2070">
       <next>
