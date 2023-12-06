@@ -252,6 +252,22 @@
                   <field name="TEXT">completed</field>
                 </shadow>
               </value>
+              <next>
+                <block type="console.log" id="#m=]Gb~a4E,Q6wc0IlIj">
+                  <value name="VALUE">
+                    <shadow type="text" id="at:_6l|vq?-W9*C)L).D">
+                      <field name="TEXT">Hello, Verge!</field>
+                    </shadow>
+                    <block type="SCORM/LMSGetValue" id="ITRtj0}0VB]}N3I]:tGd">
+                      <value name="ELEMENT">
+                        <shadow type="SCORM/dataModelElements" id="6]/{O@h@GV_duz;T]AA0">
+                          <field name="ELEMENT">cmi.core.lesson_status</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </next>
             </block>
           </statement>
         </block>
