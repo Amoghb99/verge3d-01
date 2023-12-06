@@ -2392,7 +2392,19 @@
                     </block>
                   </value>
                   <statement name="DO">
-                    <block type="SCORM/LMSCommit" id="pS9J!:V85Aei.uyCCaLL">
+                    <block type="console.log" id="OKo~c7eMl6OuTq}cJ$|}">
+                      <value name="VALUE">
+                        <shadow type="text" id="R2j%xD*^eGDa/%o/Uc.*">
+                          <field name="TEXT">Hello, Verge!</field>
+                        </shadow>
+                        <block type="SCORM/LMSGetValue" id="YNF|PW^,;4Kk2GEVBYUs">
+                          <value name="ELEMENT">
+                            <shadow type="SCORM/dataModelElements" id="K[9BW%r0GodpbqPa!g:z">
+                              <field name="ELEMENT">cmi.core.lesson_status</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
                       <next>
                         <block type="SCORM/LMSFinish" id="40D2!3,gB^`HM;-i;L+^"/>
                       </next>
@@ -2431,6 +2443,22 @@
                               <field name="TEXT">incomplete</field>
                             </shadow>
                           </value>
+                          <next>
+                            <block type="console.log" id="{d_+(yW3VHmfb7JF-UDl">
+                              <value name="VALUE">
+                                <shadow type="text">
+                                  <field name="TEXT">Hello, Verge!</field>
+                                </shadow>
+                                <block type="SCORM/LMSGetValue" id="n;,3/#v9,naH|)F3}_o9">
+                                  <value name="ELEMENT">
+                                    <shadow type="SCORM/dataModelElements" id="Zb/@TL=;VTg7=d14mL?Y">
+                                      <field name="ELEMENT">cmi.core.lesson_status</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
                         </block>
                       </statement>
                     </block>
@@ -3135,7 +3163,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="ZU4{2dS*fSp@PRz#b%oL">
+                    <shadow type="math_number" id="}.tM5zfSn+L[1upSwm_C">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="Kj%e+B4?O$TVO|U^hV4?">
@@ -3227,7 +3255,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="9[7s|%vg]t,AF9A[5jM}">
+                    <shadow type="math_number" id="4a=2?E*E!N%kkXFU+53I">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="nSooM+VGC?3rGpgFOTMN">
@@ -3319,7 +3347,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="]0(+c([+yKeC!0V9jwfo">
+                    <shadow type="math_number" id="0;([4[FE2hB6c!)@V9h4">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="ZE.C?;;+*QH%l;QGCcCN">
@@ -3411,7 +3439,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="%vNO.uQwYJ2[[(c_3r=1">
+                    <shadow type="math_number" id="2_IX{CZN40q_$!lrKAjH">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="BtwmP~ZtuwR$bAwv^-ZJ">
@@ -3503,7 +3531,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="FFN`3Lx;WV0ww*qG)!CK">
+                    <shadow type="math_number" id="^U$:cd~(57+G:yap%5O=">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="|Ju$5R;Gpm232urZH/b?">
@@ -3595,7 +3623,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="k]1jCV7V#0(NGR;$ZVN1">
+                    <shadow type="math_number" id="_4oK1ILG@NJ|W}Qd_xIN">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="uaRHm9f4G:8YN%~GV2.`">
@@ -3687,7 +3715,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="?@y/O1YlQNfr,h7endFW">
+                    <shadow type="math_number" id="T)QW;lWYL2+rZ$bzMelv">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="y$uBhPY7cHHH4z[/WzA*">
@@ -3779,7 +3807,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id=")e^xYbzD|ZR8}w/P(,_f">
+                    <shadow type="math_number" id="@.Dm!y0L4yqJcTsFLc]`">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="zdf%27%,^$H=!7vo+shM">
@@ -3871,7 +3899,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="Pa24.WXp;$gG=KP%:22=">
+                    <shadow type="math_number" id="c|!Ri)9LB/qVs4i*{/Zd">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="7W~um/)V~fDQd(du1kYB">
@@ -3963,7 +3991,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="d%ebSjSI5CObPJ_KLcuh">
+                    <shadow type="math_number" id="*U1]F(S1g?f:eX%dy^+B">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id=")xv5NqwfYKzf)#L={Mc`">
@@ -4055,7 +4083,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="{ZJVguCT%=`Nt#%2}YSC">
+                    <shadow type="math_number" id="zs4D#~hx$0/O{#f^;9E#">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="PYKko64mv,BQrYX}tFir">
@@ -4147,7 +4175,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id=")K*ldV(o^C4OtFC^g,yP">
+                    <shadow type="math_number" id="QZmG^uBG^aC!~TOk2Z`C">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="!xRu~wQU;bCQ6#UQqvJ4">
@@ -4239,7 +4267,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="p37anFXZ2qMBN[?C6X-h">
+                    <shadow type="math_number" id="3%j!,D`QjGG9pJ,L+^oV">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="c-gz:=~ni(C]u4f+;z4(">
@@ -4331,7 +4359,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="6|*,a^|W0ea5}54JVPxk">
+                    <shadow type="math_number" id="?B?$7M/ROB56jQ4?dO?S">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="^TEq@K#lmoJfwDG{vbqk">
@@ -4423,7 +4451,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="%O_TRYYjUIIxe7wE+*Qt">
+                    <shadow type="math_number" id="pzshg|=kZ.Xu`~$SJMF(">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="%7okiC0b=b#%d64[L6a7">
@@ -4515,7 +4543,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="QPSjC+:c3zMGQYiHb+:t">
+                    <shadow type="math_number" id="Qua}J97pe=CrohjL|WBX">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="w!DkG::8C(C@^rj55)NB">
@@ -4620,7 +4648,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="|!RxE_G`AO@S$oUT@~yj">
+                    <shadow type="math_number" id="pEzHA0E;Lgaca4C3K?@[">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="Aju(uB.#EUsA%fZFNFf3">
@@ -4698,7 +4726,7 @@
                     </shadow>
                   </value>
                   <value name="MAX">
-                    <shadow type="math_number" id="ag8j{b^]+Ptjg(efG^fn">
+                    <shadow type="math_number" id="0+~QP+A8%(~DaOb0)M/t">
                       <field name="NUM">1</field>
                     </shadow>
                     <block type="math_arithmetic" id="|jPCAI}@0f-P%6pGr_nT">
