@@ -433,6 +433,21 @@ function LMSSetValue() {
 
 
 
+// eventHTMLElem puzzle
+function eventHTMLElem(eventType, ids, isParent, callback) {
+    var elems = getElements(ids, isParent);
+    for (var i = 0; i < elems.length; i++) {
+        var elem = elems[i];
+        if (!elem)
+            continue;
+        elem.addEventListener(eventType, callback);
+        if (v3d.PL.editorEventListeners)
+            v3d.PL.editorEventListeners.push([elem, eventType, callback]);
+    }
+}
+
+
+
 <<<<<<< HEAD
 =======
 function LMSCommit() {
@@ -3755,6 +3770,11 @@ addHTMLElement('li', 'base_part', 'TO', 'part_div', false);
 addHTMLElement('li', 'cable_part', 'TO', 'part_div', false);
 addHTMLElement('li', 'claw_part', 'TO', 'part_div', false);
 
+eventHTMLElem('click', ['WINDOW'], false, function(event) {
+  if (click_counter >= 5) {
+    LMSSetValue(dataModelElements('cmi.core.lesson_status'), 'completed');}
+});
+
 click_counter = 0;
 top_arm_clicked = 0;
 base_clicked = 0;
@@ -4427,6 +4447,11 @@ setHTMLElemAttribute('innerHTML', 'MOTOR', 'motor_part', false);
 setHTMLElemAttribute('innerHTML', 'BASE', 'base_part', false);
 setHTMLElemAttribute('innerHTML', 'CABLE', 'cable_part', false);
 setHTMLElemAttribute('innerHTML', 'CLAW', 'claw_part', false);
+
+LMSInitialize();LMSSetValue(dataModelElements('cmi.core.lesson_status'), 'not attempted');eventHTMLElem('beforeunload', ['WINDOW'], false, function(event) {
+  LMSCommit();LMSFinish();});
+if (LMSGetValue(dataModelElements('cmi.core.lesson_status')) == 'not attempted') {
+  LMSSetValue(dataModelElements('cmi.core.lesson_status'), 'incomplete');}
 
 checkPerformance(function() {
   /* Increase rendering quality for powerful devices with Retina displays */
